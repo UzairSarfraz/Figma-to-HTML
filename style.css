@@ -1,0 +1,77 @@
+body{
+    background-color: #589ed9;
+}
+
+#container{
+    width:300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+#header .logo{
+    font-size:22px;
+    color:aliceblue
+}
+
+#header h1{
+    font-size: 32px;
+    color:white;
+}
+
+#loginform .containerfields{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#loginform .containerfields input{
+    width: 100%;
+    border: none;
+    font-size:15px;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+}
+#loginform .containerfields input[type="password"]:focus{
+    border-top: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#loginform input[type="submit"]{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(77, 112, 226);
+    font-size: 12px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 6px;
+}
+
+#loginform input[type="submit"]:hover {
+    background: #0a5ca0;
+    cursor:pointer;
+}
+
+#footer p{
+    color: aliceblue;
+}
+
+#footer p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+
+}
